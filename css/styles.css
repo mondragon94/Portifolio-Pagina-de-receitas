@@ -1,0 +1,107 @@
+
+		.main {
+			text-align: left;
+		}
+		
+		.item {
+			display: none;
+		}
+
+		.active {
+		display: block;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f9f9f9;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			text-align: left;
+			margin-bottom: 30px;
+			color: orangered;
+		}
+
+		.pudim {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		
+		}
+		.capapudim {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		}
+		.bolodechocolate {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		
+		}
+		.contracapabolo {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		}
+		.strogonoff {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		}
+		.capaStrogonoff {
+			width: 482px;
+			height: 480px;
+			position: relative;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.active {
+			margin-bottom: 10px;
+		}
+
+		.instructions {
+			margin-bottom: 40px;
+		}
+
+		.instructions ol {
+			padding-left: 20px;
+		}
+
+		.instructions li {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+
+		.instructions li:before {
+			content: "• ";
+			font-size: 24px;
+			margin-right: 10px;
+		}
+		nav {
+			bottom: 0!important;
+		}
+
+		.pagination {
+			position: static;
+        	top: 450px;
+        	left: 130px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.pagination a {
+			color: black;
+			padding: 8px 12px;
+			text-decoration: non
+		}
+		.pagination a:hover:not(.active) {
+			background-color: #031F3B;
+			color: white;
+		}
